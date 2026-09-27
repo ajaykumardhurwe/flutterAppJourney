@@ -1,0 +1,6 @@
+@MCQApi_HostAddress = http://localhost:5265
+
+GET {{MCQApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
