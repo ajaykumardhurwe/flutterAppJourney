@@ -15,6 +15,8 @@ public class MCQDbContext : DbContext
 
     public DbSet<MCQQuestion> Questions { get; set; }
 
+    public DbSet<UserProfile> UserProfiles {get; set;}
+
     protected override void OnModelCreating(
         ModelBuilder modelBuilder)
     {
